@@ -40,6 +40,41 @@
   text-transform: uppercase;
   font-weight: 900;
 }
+/*Button*/
+/*.button.primary, .button.secondary*/
+.button {
+  color: var(--title-text-color, #212121);
+  cursor: pointer;
+}
+
+.button.primary,
+.button.secondary {
+  font-size: var(--second-main-font-size);
+  text-align: center;
+}
+
+.button.primary {
+  font-weight: bold;
+  line-height: 1.87; /*30px*/
+  letter-spacing: 0.06em;
+}
+
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
+  font-weight: 500;
+  line-height: 1.62; /*26px*/
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+}
+
+.button.accent,
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
 /*Section*/
 .section-title {
   color: var(--title-text-color, #212121);
@@ -99,13 +134,3 @@
   font-size: var(--second-main-font-size);
   line-height: 1.87; /*30px*/
 }
-
-/*Team cards*/
-/* background: #FFFFFF; */
-/* material shadow v1 */
-/* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px; */
-
-/* Gallery card
-background: #FFFFFF;
-border: 1px solid #EEEEEE; */

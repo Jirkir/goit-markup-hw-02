@@ -1,13 +1,3 @@
-/*
-Цвет основного текста #212121, 100 %
-Вторичный стиль текста #757575
-Текст в футере rgba(255, 255, 255, 0.6)
-Белый #ffffff
-Черный #000000
-Акцент в макете #2196F3 
-
-Цвет фона вторичный #F5F4FA
-Цвет фона третий #2F303A */
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -41,11 +31,12 @@ a {
 address {
   font-style: normal;
 }
+
+/*header*/
 .header {
   border: 1px solid #ececec;
 }
 
-/*Site nav*/
 .logo {
   font-family: var(--additional-font);
   color: var(--black-color);
@@ -82,40 +73,6 @@ address {
 }
 .site-nav .link.current {
   color: var(--accent-color);
-}
-/*Button*/
-/*.button.primary, .button.secondary*/
-.button {
-  color: var(--title-text-color, #212121);
-  cursor: pointer;
-}
-
-.button.primary,
-.button.secondary {
-  font-size: var(--second-main-font-size);
-  text-align: center;
-}
-
-.button.primary {
-  font-weight: bold;
-  line-height: 1.87; /*30px*/
-  letter-spacing: 0.06em;
-}
-
-.button.secondary {
-  color: var(--title-text-color);
-  background-color: var(--secondary-background-color);
-  font-weight: 500;
-  line-height: 1.62; /*26px*/
-  letter-spacing: 0.03em;
-  border-radius: 4px;
-}
-
-.button.accent,
-.button.secondary:hover,
-.button.secondary:focus {
-  color: var(--white-color);
-  background-color: var(--accent-color);
 }
 
 /*Address list*/
